@@ -8,7 +8,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-print(flask.__version__)
 app.config['UPLOAD_FOLDER'] = "uploads"
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
